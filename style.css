@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    color: rgb(168, 122, 22);
+}
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+    width: 15%;
+    float: left;
+    margin: 20px 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.box > img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.box > h4 {
+    margin: 0px 10px;
+    text-align: center;
+}
+.box > p {
+    margin: 10px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.box > a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+.box a:hover {
+    background-color: blue;
+}
+
+@media screen and (max-width: 500px) {
+    .box {
+        width: 90%;
+        margin: 10px 5px;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 3px;
+    }
+}
